@@ -268,10 +268,10 @@ const App: React.FC = () => {
     };
 
     // --- Manipulación del Carrito (Eliminar Ítem) ---
-    const handleDeleteItem = (itemId: string) => {
+    /* const handleDeleteItem = (itemId: string) => {
         if (isRegistering) return;
         setCartItems(prevItems => prevItems.filter(item => item.id !== itemId));
-    };
+    }; */
 
     // --- Lógica de Registro de Orden (Integración Supabase Placeholder con Backoff) ---
     const logOrderToSupabase = async (orderData: Record<string, any>): Promise<{ success: boolean, error?: string, result?: Record<string, any> }> => {
