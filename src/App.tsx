@@ -774,7 +774,7 @@ const App: React.FC = () => {
             <header className="sticky top-0 z-40 bg-white shadow-md p-4">
                 <div className="container mx-auto flex justify-between items-center">
                     <h1 className="text-3xl font-extrabold text-red-800 tracking-tight flex items-center">
-                        <span className='mr-2'>🍕</span> Marocchinos Pizza
+                        <span className='mr-2'>🍕</span> Pizzas
                     </h1>
 
                     <button
